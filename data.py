@@ -3,4 +3,4 @@ body_data = {"title": "Real Money Quiz",
              "pin": 12345
              }
 
-recipients = ['vinaygoud528@gmail.com', 'vinayakghanti@realmoneyquiz.com']
+recipients = ['vinaygoud528@gmail.com']
