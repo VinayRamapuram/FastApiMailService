@@ -1,0 +1,25 @@
+2022-01-25 15:02:45,982 loglevel=WARNING logger=uvicorn.error should_restart() L41   StatReload detected file change in 'routers\authentication.py'. Reloading...
+2022-01-25 15:03:39,147 loglevel=WARNING logger=uvicorn.error asyncio_setup() L10   The --reload flag should not be used in production on Windows.
+2022-01-25 15:03:39,226 loglevel=INFO   logger=uvicorn.error serve() L82   Started server process [9696]
+2022-01-25 15:03:39,241 loglevel=INFO   logger=uvicorn.error startup() L45   Waiting for application startup.
+2022-01-25 15:03:39,257 loglevel=INFO   logger=uvicorn.error startup() L59   Application startup complete.
+2022-01-25 15:04:04,439 loglevel=INFO   logger=main log_requests() L30   rid=KIWPM5 start request path=/login
+2022-01-25 15:04:04,539 loglevel=INFO   logger=routers.authentication login() L19   Logging of login
+2022-01-25 15:04:05,649 loglevel=INFO   logger=main log_requests() L37   rid=KIWPM5 completed_in=1160.60ms status_code=200
+2022-01-25 15:05:42,956 loglevel=INFO   logger=uvicorn.error shutdown() L261  Shutting down
+2022-01-25 15:05:43,034 loglevel=INFO   logger=uvicorn.error shutdown() L87   Stopping reloader process [3560]
+2022-01-25 15:05:56,422 loglevel=INFO   logger=uvicorn.error __init__() L342  Will watch for changes in these directories: ['D:\\projects\\git\\FastApiMailService']   call_trace=D:\python-3.8\lib\site-packages\uvicorn\config.py L342 
+2022-01-25 15:05:56,438 loglevel=INFO   logger=uvicorn.error bind_socket() L564  Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)   call_trace=D:\python-3.8\lib\site-packages\uvicorn\config.py L564 
+2022-01-25 15:05:56,454 loglevel=INFO   logger=uvicorn.error startup() L56   Started reloader process [6676] using statreload   call_trace=D:\python-3.8\lib\site-packages\uvicorn\supervisors\basereload.py L56  
+2022-01-25 15:05:59,579 loglevel=WARNING logger=uvicorn.error asyncio_setup() L10   The --reload flag should not be used in production on Windows.   call_trace=D:\python-3.8\lib\site-packages\uvicorn\loops\asyncio.py L10  
+2022-01-25 15:05:59,657 loglevel=INFO   logger=uvicorn.error serve() L82   Started server process [7492]   call_trace=D:\python-3.8\lib\site-packages\uvicorn\server.py L82  
+2022-01-25 15:05:59,657 loglevel=INFO   logger=uvicorn.error startup() L45   Waiting for application startup.   call_trace=D:\python-3.8\lib\site-packages\uvicorn\lifespan\on.py L45  
+2022-01-25 15:05:59,657 loglevel=INFO   logger=uvicorn.error startup() L59   Application startup complete.   call_trace=D:\python-3.8\lib\site-packages\uvicorn\lifespan\on.py L59  
+2022-01-25 15:06:19,808 loglevel=INFO   logger=main log_requests() L30   rid=GBUTF8 start request path=/login   call_trace=D:\projects\git\FastApiMailService\main.py L30  
+2022-01-25 15:06:19,915 loglevel=INFO   logger=routers.authentication login() L19   Logging of login   call_trace=D:\projects\git\FastApiMailService\routers\authentication.py L19  
+2022-01-25 15:06:21,085 loglevel=INFO   logger=main log_requests() L37   rid=GBUTF8 completed_in=1229.84ms status_code=200   call_trace=D:\projects\git\FastApiMailService\main.py L37  
+2022-01-25 15:07:02,082 loglevel=INFO   logger=uvicorn.error shutdown() L261  Shutting down   call_trace=D:\python-3.8\lib\site-packages\uvicorn\server.py L261 
+2022-01-25 15:07:02,191 loglevel=INFO   logger=uvicorn.error shutdown() L64   Waiting for application shutdown.   call_trace=D:\python-3.8\lib\site-packages\uvicorn\lifespan\on.py L64  
+2022-01-25 15:07:02,191 loglevel=INFO   logger=uvicorn.error shutdown() L75   Application shutdown complete.   call_trace=D:\python-3.8\lib\site-packages\uvicorn\lifespan\on.py L75  
+2022-01-25 15:07:02,191 loglevel=INFO   logger=uvicorn.error serve() L92   Finished server process [7492]   call_trace=D:\python-3.8\lib\site-packages\uvicorn\server.py L92  
+2022-01-25 15:07:02,285 loglevel=INFO   logger=uvicorn.error shutdown() L87   Stopping reloader process [6676]   call_trace=D:\python-3.8\lib\site-packages\uvicorn\supervisors\basereload.py L87  

@@ -7,13 +7,16 @@ from database import get_db
 from models.register import RegisterDB
 from hashing import Hash
 from fastapi.security import OAuth2PasswordRequestForm
-
 router = APIRouter(tags=['Authentication'])
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 @router.post('/login')
 def login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     valid_user = db.query(RegisterDB).filter(RegisterDB.email == request.username).first()
+    logger.info("Logging of login")
     if not valid_user:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Not Found")
     if not Hash.verify(valid_user.password, request.password):
